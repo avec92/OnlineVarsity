@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    	
+	<meta charset="UTF-8">
+	<title>Logistics Website Template</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div id="header">
+		<div class="area">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO" height="86" width="170" /></a>
+			</div>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="MainPage.aspx">Home</a>
+				</li>
+				<li>
+					<a href="ContactUs.aspx">Contact Us</a>
+				</li>
+				<li>
+					<a href="Login.aspx">Login</a>
+				</li>
+				<li>
+					<a href="signup.aspx">Sign Up</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="adbox">
+			<div class="area">
+				<ul>
+					<li>
+						<div>
+							<h2><span>Online order</span> Buy</h2>
+							<p>
+								This website allows you to buy e-books.</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2><span>Home order </span>&nbsp;Buy</h2>
+							<p>
+								This website allows you to ship your books to home.</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2><span>test</span> And buy</h2>
+							<p>
+								This website allows you to buy e-books on a discount by passing an equivalent test.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="area">
+			<div class="blog">
+				<div class="frame">
+					<img src="images/checker.jpg" alt="Img" height="216" width="268" />
+				</div>
+				<h3>We Aim Higher</h3>
+				<p>
+					This website has been designed to make it easier to use for your purpose</p>
+			</div>
+		    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <asp:Panel ID="Panel1" runat="server">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </asp:Panel>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+		</div>
+	</div>
+	<div id="footer">
+		<span class="divider"></span>
+		<div class="area">
+			<div id="connect">
+				<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a> <a href="http://www.freewebsitetemplates.com/misc/contact/" target="_blank" class="mail"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> <a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a>
+			</div>
+			<p>
+				© 2023 AZ Logistics. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+    </form>
+</body>
+</html>
